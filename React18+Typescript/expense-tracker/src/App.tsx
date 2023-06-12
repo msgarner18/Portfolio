@@ -1,14 +1,7 @@
-import Button from "./components/Button";
-import Alert from "./components/Alert";
-import ListGroup from "./components/ListGroup";
-import Cart from "./components/Cart";
-import NavBar from "./components/NavBar";
-import ExpandableText from "./components/ExpandableText";
 import { useState } from "react";
-import Form from "./components/Form";
-import ExpenseList from "./expense-tracker/components/ExpenseList";
-import ExpenseFilter from "./expense-tracker/components/ExpenseFilter";
-import ExpenseForm from "./expense-tracker/components/ExpenseForm";
+import ExpenseList from "./components/ExpenseList";
+import ExpenseFilter from "./components/ExpenseFilter";
+import ExpenseForm from "./components/ExpenseForm";
 
 function App() {
   const [expenses, setExpenses] = useState([
